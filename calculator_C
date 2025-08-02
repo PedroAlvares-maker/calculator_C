@@ -146,8 +146,8 @@ int sn () {
 }
 
 int v () {
-    int N;
-    scanf("%d", &N);
+    char N;
+    scanf("%c", &N);
     switch (N) {
     case 1:
         soma();
